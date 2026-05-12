@@ -1,1 +1,3 @@
-# Primer-Parcial-IG-2026-Sosa
+Rodrigo Matías Sosa
+Primer Parcial - Informática General 
+Artes Multimediales - UNA
