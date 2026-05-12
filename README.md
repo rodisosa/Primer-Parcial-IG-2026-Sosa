@@ -1,0 +1,1 @@
+# Primer-Parcial-IG-2026-Sosa
