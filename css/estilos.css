@@ -2,17 +2,18 @@
 
 * {
     font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
 }
 
 /*------------Etiquetas Semánticas:------------*/
 
 body {
     background-image: url("../img/fondo.png");
-    max-width: 1400px;
-    text-align: center;
 }
 
 main {
@@ -29,7 +30,7 @@ article {
 
 section {
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 8%;
 }
 
 footer {
@@ -38,22 +39,6 @@ footer {
     padding-top: 1%;
     padding-bottom: 1%;
     border-radius: 15px 15px 0 0;
-}
-
-/*------------Selectores:------------*/
-
-main p {
-    text-align: justify;
-    padding-bottom: 1rem;
-    line-height: 1.5em;
-}
-
-main h1, main h3 {
-    padding-bottom: 2rem;
-}
-
-#txtHeader h1{
-    padding-bottom: 1%;
 }
 
 /*------------NAV:------------*/
@@ -105,7 +90,70 @@ nav a:active {
 	color: #000;
 }
 
+/*------------Selectores:------------*/
+
+main p {
+    text-align: justify;
+    padding-bottom: 1rem;
+    line-height: 1.5em;
+}
+
+main h1, main h3 {
+    padding-bottom: 1rem;
+    font-weight: 600;
+}
+
+#txtHeader h1{
+    padding-bottom: 1%;
+}
+
+main #lista {
+    padding: 0;
+    margin: 0;
+    list-style-type: none; 
+}
+
+main #lista li {
+    padding: 1%;
+}
+
+main #lista a {
+    display: block;
+    text-decoration: none;
+    line-height: 1.5em;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+main #lista a:link {
+	background-color: #256d85;
+	color: #FFF;
+}
+
+main #lista a:visited {
+	background-color: #256d85;
+	color: #47B5FF;
+}
+
+main #lista a:hover {
+	background-color: #244e5b;
+	color: #47B5FF;  
+}
+
+main #lista a:active {
+	background-color: #47B5FF;
+	color: #06283D;
+}
+
+
+
 /*------------Clases------------*/
+
+.contenedor{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
 
 .imgHorizontales {
     width: 100%;
@@ -120,12 +168,14 @@ nav a:active {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 4%;
 }
 
 .videoYouTube {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 2%;
 }
 
 /*------------IDs------------*/
