@@ -18,36 +18,38 @@ body {
 
 main {
     background-color: white;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding: 2%;
+    margin: 0 10rem;
+    padding: 1rem;
 }
 
 article {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin: 0 8rem;
 }
 
 section {
-    margin-top: 5%;
-    margin-bottom: 8%;
+    margin: 4rem 0;
 }
 
 footer {
     background-color: #637480;
     color: white;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    border-radius: 15px 15px 0 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 1rem 1rem 0 0;
+}
+
+h1, h2 {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
 }
 
 /*------------NAV:------------*/
 
 nav {
 	background-color: #FFB347;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
-    border-radius: 0 0 15px 15px;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border-radius: 0 0 1rem 1rem;
 }
 
 nav ul {
@@ -58,16 +60,16 @@ nav ul {
 
 nav li {
 	display: inline-block;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
     
 nav a {
     text-decoration: none;
     font-size: 1.2rem;
-    line-height: 1.5em;
-    padding: 0.2rem;
-    border-radius: 5px;
+    line-height: 1.5rem;
+    padding: 0.1rem;
+    border-radius: 0.3rem;
 }
 
 nav a:link {
@@ -94,17 +96,18 @@ nav a:active {
 
 main p {
     text-align: justify;
-    padding-bottom: 1rem;
-    line-height: 1.5em;
+    padding-bottom: 1.5rem;
+    line-height: 1.5rem;
 }
 
-main h1, main h3 {
+main h1, main h2 {
     padding-bottom: 1rem;
     font-weight: 600;
+    text-decoration: underline;
 }
 
 #txtHeader h1{
-    padding-bottom: 1%;
+    padding-bottom: 0.3rem;
 }
 
 main #lista {
@@ -114,15 +117,15 @@ main #lista {
 }
 
 main #lista li {
-    padding: 1%;
+    padding: 0.5rem;
 }
 
 main #lista a {
     display: block;
     text-decoration: none;
-    line-height: 1.5em;
+    line-height: 1.5rem;
     padding: 0.5rem;
-    border-radius: 5px;
+    border-radius: 1rem;
 }
 
 main #lista a:link {
@@ -156,10 +159,12 @@ main #lista a:active {
 }
 
 .imgHorizontales {
-    width: 100%;
+    width: 75%;
     height: auto;
     display: block;
-    padding-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1rem;
 }
 
 .imgVerticales {
@@ -168,20 +173,20 @@ main #lista a:active {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 4%;
+    padding-bottom: 1rem;
 }
 
 .videoYouTube {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 2%;
+    padding-bottom: 3rem;
 }
 
 /*------------IDs------------*/
 
 #txtHeader {
-    padding: 1% 0;
+    padding: 1rem 0;
     color: #FFF;
     background-color: #AA8F68;
 }
@@ -192,7 +197,3 @@ main #lista a:active {
     text-align: center;
     display: block;
 }
-
-
-
-
