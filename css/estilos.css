@@ -41,14 +41,14 @@ body {
 
 /*------------Header:------------*/
 
-.txtHeader {
+.header-texto {
     padding: 2.5rem 1rem;
     color: #FFF;
     background-color: var(--color-principal);
     text-align: center;
 }
 
-.txtHeader h1 {
+.header-texto h1 {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
     font-weight: 700;
@@ -127,12 +127,12 @@ main h1, main h2 {
 
 /*------------Imágenes y Video:------------*/
 
-#imgCita {
+#imagen-cita {
     margin: 1.5rem 0;
     text-align: center;
 }
 
-.imgHorizontales, .imgVerticales {
+.imagen-horizontal, .imagen-vertical {
     height: auto;
     display: block;
     margin: 0 auto 1rem auto;
@@ -140,8 +140,8 @@ main h1, main h2 {
     max-width: 100%;
 }
 
-.imgHorizontales { width: 75%; }
-.imgVerticales { width: 50%; }
+.imagen-horizontal { width: 75%; }
+.imagen-vertical { width: 50%; }
 
 .contenedor-video {
     position: relative;
@@ -150,7 +150,7 @@ main h1, main h2 {
     margin: 0 auto 2rem auto;
 }
 
-.videoYouTube {
+.video-youtube {
     width: 100%;
     aspect-ratio: 16 / 9;
     border: none;
