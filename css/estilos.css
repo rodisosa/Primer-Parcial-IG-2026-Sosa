@@ -1,3 +1,9 @@
+/*
+Nota: Los textos fueron generados por ChatGPT y adaptados a la consigna. Pueden contener errores. Las imágenes fueron recopiladas de Internet únicamente para su uso en este parcial.
+
+En este archivo se utilizó IA Gemini 3.0 para la corrección de errores, organización y estilos aplicados.
+*/
+
 /*------------ Variables ------------*/
 
 :root {
@@ -13,13 +19,6 @@
 /*------------General:------------*/
 
 * {
-    /*font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-align: center;*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -123,6 +122,17 @@ main h1, main h2 {
     color: #222;
     border-bottom: 2px solid var(--color-acento);
     margin-bottom: 1.5rem;
+}
+
+strong {
+    color: #222;
+    font-weight: 700;
+}
+
+em {
+    color: var(--color-hover);
+    font-weight: 400;
+    font-style: italic;
 }
 
 /*------------Imágenes y Video:------------*/
